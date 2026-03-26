@@ -23,3 +23,14 @@ System Requirements:
 
 Reflection:
 [REFLECTION.md](REFLECTION.md)
+
+## Assignment 5 Documentation
+
+Use Cases:
+[USECASES.md](USECASES.md)
+
+Test Cases:
+[TESTCASES.md](TESTCASES.md)
+
+Reflection:
+[REFLECTION_A5.md](REFLECTION_A5.md)
