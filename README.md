@@ -34,3 +34,37 @@ Test Cases:
 
 Reflection:
 [REFLECTION_A5.md](REFLECTION_A5.md)
+
+## Assignment 6 Documentation
+
+Agile Planning:
+[AGILE.md](AGILE.md)
+
+Reflection:
+[REFLECTION_A6.md](REFLECTION_A6.md)
+
+---
+
+## GitHub Agile Evidence
+
+### Project Board (Kanban)
+![Project Board](images/project-board.png)
+
+### Issues (User Stories)
+![Issues](images/issues.png)
+
+### Milestone (Sprint 1)
+![Milestone](images/milestone.png)
+
+---
+
+## Technologies Used
+- Java (Spring Boot)
+- MySQL
+- GitHub (Issues, Projects, Milestones)
+- Mermaid (Diagrams)
+
+---
+
+## Conclusion
+This project demonstrates a complete software engineering lifecycle, including requirements gathering, system design, testing, and Agile planning.
