@@ -68,3 +68,33 @@ Reflection:
 
 ## Conclusion
 This project demonstrates a complete software engineering lifecycle, including requirements gathering, system design, testing, and Agile planning.
+
+## Assignment 7 - Kanban Board Implementation
+
+### Template Analysis
+[template_analysis.md](template_analysis.md)
+
+### Kanban Explanation
+[kanban_explanation.md](kanban_explanation.md)
+
+### Reflection
+[reflection_A7.md](reflection_A7.md)
+
+---
+
+### Custom Kanban Board
+
+![Kanban Board](images/kanban-board.png)
+
+### Workflow Demonstration
+The Kanban board demonstrates Agile workflow by moving tasks through stages:
+- To Do → In Progress → Testing → Done
+- Blocked tasks highlight issues preventing progress
+
+### Customization Explanation
+The board was customized by adding:
+
+- **Testing**: Ensures tasks are verified before completion
+- **Blocked**: Highlights tasks that cannot proceed
+
+This improves workflow visibility and aligns with Agile best practices.
