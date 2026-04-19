@@ -98,3 +98,10 @@ The board was customized by adding:
 - **Blocked**: Highlights tasks that cannot proceed
 
 This improves workflow visibility and aligns with Agile best practices.
+
+
+## Assignment 8 - System Modeling
+
+- [State Diagrams](state_diagrams.md)
+- [Activity Diagrams](activity_diagrams.md)
+- [Reflection](reflection_A8.md)
