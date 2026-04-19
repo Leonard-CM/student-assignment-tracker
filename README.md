@@ -105,3 +105,9 @@ This improves workflow visibility and aligns with Agile best practices.
 - [State Diagrams](state_diagrams.md)
 - [Activity Diagrams](activity_diagrams.md)
 - [Reflection](reflection_A8.md)
+
+## Assignment 9 - Domain Modeling
+
+- [Domain Model](domain_model.md)
+- [Class Diagram](class_diagram.md)
+- [Reflection](reflection_A9.md)
