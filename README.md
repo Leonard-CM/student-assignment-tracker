@@ -1,7 +1,7 @@
-# Student Assignment Tracker System
+# Student app.Assignment Tracker System
 
 ## Project Description
-The Student Assignment Tracker System is a web-based application designed to help students manage their academic assignments and deadlines efficiently.
+The Student app.Assignment Tracker System is a web-based application designed to help students manage their academic assignments and deadlines efficiently.
 
 The system allows students to organize subjects, track assignments, and monitor upcoming deadlines in one centralized platform.
 
@@ -50,7 +50,7 @@ Reflection:
 ### Project Board (Kanban)
 ![Project Board](images/project-board.png)
 
-### Issues (User Stories)
+### Issues (app.User Stories)
 ![Issues](images/issues.png)
 
 ### Milestone (Sprint 1)
@@ -111,3 +111,8 @@ This improves workflow visibility and aligns with Agile best practices.
 - [Domain Model](domain_model.md)
 - [Class Diagram](class_diagram.md)
 - [Reflection](reflection_A9.md)
+
+## Assignment 10 - Creational Design Patterns Implementation
+
+- [Change Log](CHANGELOG.md)
+- [Reflection](REFLECTION_A10.md)
