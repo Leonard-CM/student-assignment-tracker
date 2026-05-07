@@ -116,3 +116,85 @@ This improves workflow visibility and aligns with Agile best practices.
 
 - [Change Log](CHANGELOG.md)
 - [Reflection](REFLECTION_A10.md)
+
+## Assignment 11 - Behavioral Design Patterns
+
+### Overview
+
+Assignment 11 focused on implementing Behavioral Design Patterns in the Student Assignment Tracker System.
+
+The following patterns were implemented:
+- Strategy Pattern
+- Observer Pattern
+
+These patterns improve flexibility, communication, and maintainability within the system.
+
+---
+
+## Strategy Pattern
+
+The Strategy Pattern was implemented to support dynamic assignment prioritization.
+
+### Core Classes
+- `PrioritizationStrategy`
+- `DeadlineStrategy`
+- `DifficultyStrategy`
+- `AssignmentManager`
+
+### Purpose
+Allows the system to switch prioritization behavior dynamically at runtime.
+
+---
+
+## Observer Pattern
+
+The Observer Pattern was implemented to support assignment notifications.
+
+### Core Classes
+- `Observer`
+- `Subject`
+- `AssignmentTracker`
+- `StudentObserver`
+
+### Purpose
+Allows students to receive assignment update notifications automatically.
+
+---
+
+## Unit Testing
+
+JUnit 5 was used to test:
+- Strategy behavior switching
+- Observer notification functionality
+
+### Test File
+- `BehavioralPatternTests.java`
+
+---
+
+## Assignment 11 Documentation
+
+### Reflection
+[REFLECTION_A11.md](REFLECTION_A11.md)
+
+### CHANGELOG
+[CHANGELOG.md](CHANGELOG.md)
+
+---
+
+## GitHub Agile Evidence
+
+### Assignment 11 Project Board
+![Assignment 11 Board](images/all-board.png)
+
+### Assignment 11 Issues
+![Assignment 11 Issues](images/all-issues.png)
+
+### Assignment 11 Milestone
+![Assignment 11 Milestone](images/all-milestone.png)
+
+---
+
+## Conclusion
+
+This assignment demonstrated the implementation of Behavioral Design Patterns using Java and JUnit 5 while applying Agile development practices through GitHub Issues, Boards, and Milestones.

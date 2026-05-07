@@ -83,3 +83,8 @@ Maintained structured documentation across assignments (A1–A10)
 ## Summary
 This release completes the transition from UML design to a fully functional Java implementation.
 All six creational design patterns have been successfully applied, tested, and documented, demonstrating strong understanding of object-oriented design principles and software engineering best practices.
+
+## Assignment 11
+- Implemented Strategy pattern for assignment prioritization
+- Implemented Observer pattern for notifications
+- Added unit tests for behavioral patterns
