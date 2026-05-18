@@ -228,3 +228,33 @@ Assignment 12 focused on implementing a Service Layer and RESTful API for the St
 
 ### Reflection
 [REFLECTION_A12.md](REFLECTION_A12.md)
+
+## Assignment 13 - CI/CD with GitHub Actions
+
+### Overview
+
+Assignment 13 focused on implementing Continuous Integration and Continuous Deployment (CI/CD) using GitHub Actions.
+
+### Features Implemented
+
+- Automated test execution
+- Maven build automation
+- JAR artifact generation
+- Branch protection rules
+- Pull request validation
+- GitHub Actions workflow automation
+
+### CI/CD Workflow
+
+The GitHub Actions workflow automatically:
+
+1. Runs on every push
+2. Runs on pull requests to main
+3. Executes all unit and integration tests
+4. Builds the Spring Boot application
+5. Uploads a JAR artifact when merged to main
+
+### Running Tests Locally
+
+```bash
+mvn clean test
