@@ -14,14 +14,14 @@ flowchart TD
 
     Student --> Register[Register Account]
     Student --> Login[Login]
-    Student --> CreateSubject[Create Subject]
-    Student --> AddAssignment[Add Assignment]
-    Student --> EditAssignment[Edit Assignment]
-    Student --> DeleteAssignment[Delete Assignment]
-    Student --> Dashboard[View Dashboard]
-    Student --> Complete[Mark Assignment Complete]
+    Student --> CreateSubject[Create app.model.Subject]
+    Student --> AddAssignment[Add app.model.Assignment]
+    Student --> EditAssignment[Edit app.model.Assignment]
+    Student --> DeleteAssignment[Delete app.model.Assignment]
+    Student --> app.model.Dashboard[View app.model.Dashboard]
+    Student --> Complete[Mark app.model.Assignment Complete]
 
-    Lecturer --> Deadlines[Set Assignment Deadlines]
+    Lecturer --> Deadlines[Set app.model.Assignment Deadlines]
 
     Admin --> Maintain[Maintain System]
     IT --> Support[Provide Support]
@@ -29,7 +29,7 @@ flowchart TD
     Management --> Reports[View Reports]
 
     AddAssignment --> CreateSubject
-    Dashboard --> Login
+    app.model.Dashboard --> Login
 ```
 
 ## Use Case Explanation
@@ -44,8 +44,8 @@ flowchart TD
 
 ### Relationships
 - The **Student** performs most system operations.
-- The **Add Assignment** use case includes **Create Subject**, ensuring assignments belong to a subject.
-- The **View Dashboard** use case includes **Login**, enforcing authentication.
+- The **Add app.model.Assignment** use case includes **Create app.model.Subject**, ensuring assignments belong to a subject.
+- The **View app.model.Dashboard** use case includes **Login**, enforcing authentication.
 
 ### Stakeholder Alignment
 This diagram addresses key concerns such as:
@@ -57,11 +57,11 @@ This diagram addresses key concerns such as:
 
 ## UC1: Register Account
 Actor: Student  
-Precondition: User is not registered  
-Postcondition: User account is created
+Precondition: app.model.User is not registered  
+Postcondition: app.model.User account is created
 
 Basic Flow:
-1. User enters email and password
+1. app.model.User enters email and password
 2. System validates input
 3. Account is created
 
@@ -72,8 +72,8 @@ Alternative Flow:
 
 ## UC2: Login
 Actor: Student  
-Precondition: User has an account  
-Postcondition: User is authenticated
+Precondition: app.model.User has an account  
+Postcondition: app.model.User is authenticated
 
 Basic Flow:
 1. Enter credentials
@@ -85,10 +85,10 @@ Alternative Flow:
 
 ---
 
-## UC3: Create Subject
+## UC3: Create app.model.Subject
 Actor: Student  
-Precondition: User logged in  
-Postcondition: Subject saved
+Precondition: app.model.User logged in  
+Postcondition: app.model.Subject saved
 
 Basic Flow:
 1. Enter subject name
@@ -96,10 +96,10 @@ Basic Flow:
 
 ---
 
-## UC4: Add Assignment
+## UC4: Add app.model.Assignment
 Actor: Student  
-Precondition: Subject exists  
-Postcondition: Assignment created
+Precondition: app.model.Subject exists  
+Postcondition: app.model.Assignment created
 
 Basic Flow:
 1. Enter assignment details
@@ -107,10 +107,10 @@ Basic Flow:
 
 ---
 
-## UC5: Edit Assignment
+## UC5: Edit app.model.Assignment
 Actor: Student  
-Precondition: Assignment exists  
-Postcondition: Assignment updated
+Precondition: app.model.Assignment exists  
+Postcondition: app.model.Assignment updated
 
 Basic Flow:
 1. Select assignment
@@ -118,10 +118,10 @@ Basic Flow:
 
 ---
 
-## UC6: Delete Assignment
+## UC6: Delete app.model.Assignment
 Actor: Student  
-Precondition: Assignment exists  
-Postcondition: Assignment removed
+Precondition: app.model.Assignment exists  
+Postcondition: app.model.Assignment removed
 
 Basic Flow:
 1. Select assignment
@@ -129,7 +129,7 @@ Basic Flow:
 
 ---
 
-## UC7: View Dashboard
+## UC7: View app.model.Dashboard
 Actor: Student  
 Precondition: Logged in  
 Postcondition: Assignments displayed
@@ -140,10 +140,10 @@ Basic Flow:
 
 ---
 
-## UC8: Mark Assignment Complete
+## UC8: Mark app.model.Assignment Complete
 Actor: Student  
-Precondition: Assignment exists  
-Postcondition: Assignment marked complete
+Precondition: app.model.Assignment exists  
+Postcondition: app.model.Assignment marked complete
 
 Basic Flow:
 1. Select assignment

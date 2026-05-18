@@ -1,25 +1,25 @@
 # Agile Planning Document
 
-## 1. User Stories
+## 1. app.model.User Stories
 
 The following user stories are derived from functional requirements and use cases defined in previous assignments.
 
-| Story ID | User Story | Acceptance Criteria | Priority |
+| Story ID | app.model.User Story | Acceptance Criteria | Priority |
 |---------|-----------|--------------------|----------|
 | US-001 | As a student, I want to register an account so that I can access the system | Valid email and password required | High |
 | US-002 | As a student, I want to log in so that I can access my assignments | Invalid login shows error | High |
-| US-003 | As a student, I want to create subjects so that I can organize assignments | Subject saved correctly | High |
-| US-004 | As a student, I want to add assignments so that I can track deadlines | Assignment includes title and date | High |
+| US-003 | As a student, I want to create subjects so that I can organize assignments | app.model.Subject saved correctly | High |
+| US-004 | As a student, I want to add assignments so that I can track deadlines | app.model.Assignment includes title and date | High |
 | US-005 | As a student, I want to edit assignments so that I can update information | Changes saved instantly | Medium |
-| US-006 | As a student, I want to delete assignments so that I can remove unnecessary tasks | Assignment removed from system | Medium |
+| US-006 | As a student, I want to delete assignments so that I can remove unnecessary tasks | app.model.Assignment removed from system | Medium |
 | US-007 | As a student, I want to view a dashboard so that I can see all tasks | Tasks sorted by deadline | High |
 | US-008 | As a student, I want to mark assignments complete so that I can track progress | Status updated visually | High |
-| US-009 | As a student, I want deadline notifications so that I don’t miss submissions | Notification sent 24h before | High |
+| US-009 | As a student, I want deadline notifications so that I don’t miss submissions | app.model.Notification sent 24h before | High |
 | US-010 | As an admin, I want secure authentication so that user data is protected | Unauthorized access denied | High |
 
 ## 2. Product Backlog
 
-| Story ID | User Story | Priority (MoSCoW) | Effort (Story Points) | Dependencies |
+| Story ID | app.model.User Story | Priority (MoSCoW) | Effort (Story Points) | Dependencies |
 |---------|-----------|------------------|----------------------|--------------|
 | US-001 | Register account | Must-have | 3 | None |
 | US-002 | Login | Must-have | 3 | US-001 |
@@ -45,12 +45,12 @@ The following user stories are derived from functional requirements and use case
 ### Sprint Goal
 The goal of this sprint is to deliver a Minimum Viable Product (MVP) that allows users to register, log in, create subjects, and manage assignments.
 
-### Selected User Stories
+### Selected app.model.User Stories
 - US-001 (Register)
 - US-002 (Login)
-- US-003 (Create Subject)
-- US-004 (Add Assignment)
-- US-007 (Dashboard)
+- US-003 (Create app.model.Subject)
+- US-004 (Add app.model.Assignment)
+- US-007 (app.model.Dashboard)
 
 ---
 

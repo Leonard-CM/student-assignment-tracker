@@ -1,14 +1,15 @@
-import app.Assignment;
-import creational_patterns.simple_factory.AssignmentFactory;
+import com.app.model.Assignment;
+import com.app.creational_patterns.simple_factory.AssignmentFactory;
+import com.app.model.Notification;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-import creational_patterns.singleton.DatabaseConnection;
-import creational_patterns.builder.AssignmentBuilder;
-import creational_patterns.prototype.AssignmentPrototype;
-import creational_patterns.factory_method.EmailNotificationFactory;
-import creational_patterns.abstract_factory.WindowsFactory;
-import creational_patterns.abstract_factory.Button;
+import com.app.creational_patterns.singleton.DatabaseConnection;
+import com.app.creational_patterns.builder.AssignmentBuilder;
+import com.app.creational_patterns.prototype.AssignmentPrototype;
+import com.app.creational_patterns.factory_method.EmailNotificationFactory;
+import com.app.creational_patterns.abstract_factory.WindowsFactory;
+import com.app.creational_patterns.abstract_factory.Button;
 
 
 
@@ -42,14 +43,14 @@ public class PatternTests {
 
     @Test
     public void testSimpleFactory() {
-       app.Assignment a = AssignmentFactory.createAssignment("Science");
+       Assignment a = AssignmentFactory.createAssignment("Science");
         assertEquals("Science", a.getTitle());
     }
 
     @Test
     public void testFactoryMethod() {
         EmailNotificationFactory factory = new EmailNotificationFactory();
-       app.Notification n = factory.createNotification("Hello");
+       Notification n = factory.createNotification("Hello");
         assertTrue(n.getMessage().contains("Email"));
     }
 

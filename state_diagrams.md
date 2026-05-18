@@ -1,17 +1,17 @@
-# Assignment 8 - State Transition Diagrams
+# app.model.Assignment 8 - State Transition Diagrams
 
 This document models the lifecycle of key system objects using UML state transition diagrams.
 
 ---
 
-## 1. Assignment Object
+## 1. app.model.Assignment Object
 
 ```mermaid
 stateDiagram-v2
     [*] --> Created
     Created --> Pending : Submit
     Pending --> InProgress : Start Work
-    InProgress --> Submitted : Submit Assignment
+    InProgress --> Submitted : Submit app.model.Assignment
     Submitted --> Completed : [if approved]
     Submitted --> Late : Deadline Passed
     Late --> Completed : Submit Late
@@ -20,19 +20,19 @@ stateDiagram-v2
 
 ### Explanation
 - Key states: Created, Pending, InProgress, Submitted, Completed, Late
-- Guard condition: Assignment only transitions to Completed if approved
+- Guard condition: app.model.Assignment only transitions to Completed if approved
 - Transition:
     - "Submitted → Late" occurs when the deadline passes before submission
 - This diagram models the full lifecycle of an assignment from creation to completion
 - Maps to:
-    - FR-001: Assignment management
+    - FR-001: app.model.Assignment management
     - FR-004: Deadline tracking
-    - US-004: Add Assignment
-    - US-008: Mark Assignment Complete
+    - US-004: Add app.model.Assignment
+    - US-008: Mark app.model.Assignment Complete
 
 ---
 
-## 2. User Account Object
+## 2. app.model.User Account Object
 
 ```mermaid
 stateDiagram-v2
@@ -52,21 +52,21 @@ Suspended --> Active : Reinstated
     - "Active → Suspended" occurs when user violates system policies
 - This diagram represents the authentication and account lifecycle
 - Maps to:
-    - FR-002: User authentication
+    - FR-002: app.model.User authentication
     - US-001: Register Account
     - US-002: Login
 
 ---
 
-## 3. Subject Object
+## 3. app.model.Subject Object
 
 ```mermaid
 stateDiagram-v2
 [*] --> Created
-Created --> Active : Save Subject
-Active --> Updated : Edit Subject
+Created --> Active : Save app.model.Subject
+Active --> Updated : Edit app.model.Subject
 Updated --> Active
-Active --> Deleted : Delete Subject
+Active --> Deleted : Delete app.model.Subject
 ```
 
 ### Explanation
@@ -75,12 +75,12 @@ Active --> Deleted : Delete Subject
     - "Active → Updated" occurs when a subject is modified
 - This diagram models how subjects are created, updated, and removed
 - Maps to:
-    - FR-001: Assignment organization
-    - US-003: Create Subject
+    - FR-001: app.model.Assignment organization
+    - US-003: Create app.model.Subject
 
 ---
 
-## 4. Notification Object
+## 4. app.model.Notification Object
 
 ```mermaid
 stateDiagram-v2
@@ -102,7 +102,7 @@ Read --> Archived
 
 ---
 
-## 5. Dashboard Object
+## 5. app.model.Dashboard Object
 
 ```mermaid
 stateDiagram-v2
@@ -120,17 +120,17 @@ Error --> Loading : Retry
     - "Loaded → Error" occurs when data fails to load
 - This diagram models system behavior when displaying assignment data
 - Maps to:
-    - FR-003: Dashboard functionality
-    - US-007: View Dashboard
+    - FR-003: app.model.Dashboard functionality
+    - US-007: View app.model.Dashboard
 
 ---
 
-## 6. Session Object
+## 6. app.model.Session Object
 
 ```mermaid
 stateDiagram-v2
 [*] --> Started
-Started --> Active : User Logged In
+Started --> Active : app.model.User Logged In
 Active --> Expired : Timeout
 Active --> Ended : Logout
 Expired --> Ended
@@ -138,7 +138,7 @@ Expired --> Ended
 
 ### Explanation
 - Key states: Started, Active, Expired, Ended
-- Guard condition: Session expires after inactivity timeout
+- Guard condition: app.model.Session expires after inactivity timeout
 - Transition:
     - "Active → Expired" occurs when the session times out
 - This diagram ensures secure session management
@@ -167,7 +167,7 @@ Completed --> [*]
 - This diagram tracks assignment progress over time
 - Maps to:
     - FR-004: Progress tracking
-    - US-008: Mark Assignment Complete
+    - US-008: Mark app.model.Assignment Complete
 
 ---
 
@@ -175,17 +175,17 @@ Completed --> [*]
 
 These diagrams align with:
 
-### Functional Requirements (Assignment 4)
-- FR-001: Assignment management
-- FR-002: User authentication
-- FR-003: Dashboard functionality
+### Functional Requirements (app.model.Assignment 4)
+- FR-001: app.model.Assignment management
+- FR-002: app.model.User authentication
+- FR-003: app.model.Dashboard functionality
 - FR-004: Deadline tracking
 
-### User Stories (Assignment 6)
+### app.model.User Stories (app.model.Assignment 6)
 - US-001: Register Account
 - US-002: Login
-- US-003: Create Subject
-- US-004: Add Assignment
-- US-007: View Dashboard
-- US-008: Mark Assignment Complete
+- US-003: Create app.model.Subject
+- US-004: Add app.model.Assignment
+- US-007: View app.model.Dashboard
+- US-008: Mark app.model.Assignment Complete
 - US-009: Notifications

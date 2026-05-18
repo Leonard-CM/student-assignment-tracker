@@ -2,41 +2,41 @@
 
 ## 1. Introduction
 
-This document defines the functional and non-functional requirements for the Student Assignment Tracker System. The requirements are derived from stakeholder needs and are designed to ensure system usability, performance, and reliability.
+This document defines the functional and non-functional requirements for the Student app.model.Assignment Tracker System. The requirements are derived from stakeholder needs and are designed to ensure system usability, performance, and reliability.
 
 ---
 
 ## 2. Functional Requirements
 
-### FR1: User Registration
+### FR1: app.model.User Registration
 The system shall allow users to register an account using an email and password.
-- Acceptance Criteria: User must provide a valid email and password.
+- Acceptance Criteria: app.model.User must provide a valid email and password.
 
-### FR2: User Authentication
+### FR2: app.model.User Authentication
 The system shall allow users to log in securely.
 - Acceptance Criteria: Invalid login attempts must display an appropriate error message.
 
-### FR3: Subject Management
+### FR3: app.model.Subject Management
 The system shall allow users to create and manage subjects/modules.
 - Acceptance Criteria: Subjects must be saved and displayed correctly.
 
-### FR4: Assignment Creation
+### FR4: app.model.Assignment Creation
 The system shall allow users to create assignments with a title and deadline.
-- Acceptance Criteria: Assignment must include mandatory fields (title, deadline).
+- Acceptance Criteria: app.model.Assignment must include mandatory fields (title, deadline).
 
-### FR5: Assignment Update
+### FR5: app.model.Assignment Update
 The system shall allow users to edit assignment details.
 - Acceptance Criteria: Changes must be reflected immediately after update.
 
-### FR6: Assignment Deletion
+### FR6: app.model.Assignment Deletion
 The system shall allow users to delete assignments.
 - Acceptance Criteria: Deleted assignments must not appear in the system.
 
-### FR7: Dashboard View
+### FR7: app.model.Dashboard View
 The system shall display all assignments in a dashboard view.
 - Acceptance Criteria: Assignments must be sorted by upcoming deadlines.
 
-### FR8: Assignment Completion
+### FR8: app.model.Assignment Completion
 The system shall allow users to mark assignments as completed.
 - Acceptance Criteria: Completed assignments must be visually distinguishable.
 
@@ -44,7 +44,7 @@ The system shall allow users to mark assignments as completed.
 The system shall notify users of upcoming deadlines.
 - Acceptance Criteria: Notifications must be triggered at least 24 hours before the deadline.
 
-### FR10: Assignment History
+### FR10: app.model.Assignment History
 The system shall allow users to view previously completed assignments.
 - Acceptance Criteria: Completed assignments must be stored and retrievable.
 

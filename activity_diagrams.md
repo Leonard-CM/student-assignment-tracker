@@ -1,10 +1,10 @@
-# Assignment 8 - Activity Diagrams
+# app.model.Assignment 8 - Activity Diagrams
 
 This document models system workflows using UML activity diagrams.
 
 ---
 
-## 1. User Registration Workflow
+## 1. app.model.User Registration Workflow
 
 ```mermaid
 flowchart TD
@@ -23,7 +23,7 @@ ShowError --> End
 - If valid, the account is created and a verification email is sent
 - If invalid, an error is shown
 - Maps to:
-    - FR-002: User authentication
+    - FR-002: app.model.User authentication
     - US-001: Register Account
 
 ---
@@ -41,7 +41,7 @@ ShowError --> End
 ```
 
 ### Explanation
-- User enters login credentials
+- app.model.User enters login credentials
 - System validates credentials
 - Valid users access dashboard, invalid users see an error
 - Maps to:
@@ -50,7 +50,7 @@ ShowError --> End
 
 ---
 
-## 3. Add Assignment Workflow
+## 3. Add app.model.Assignment Workflow
 
 ```mermaid
 flowchart TD
@@ -62,15 +62,15 @@ UpdateDashboard --> End
 ```
 
 ### Explanation
-- User selects a subject and enters assignment details
-- Assignment is saved and dashboard is updated
+- app.model.User selects a subject and enters assignment details
+- app.model.Assignment is saved and dashboard is updated
 - Maps to:
-    - FR-001: Assignment management
-    - US-004: Add Assignment
+    - FR-001: app.model.Assignment management
+    - US-004: Add app.model.Assignment
 
 ---
 
-## 4. Edit Assignment Workflow
+## 4. Edit app.model.Assignment Workflow
 
 ```mermaid
 flowchart TD
@@ -82,15 +82,15 @@ UpdateDashboard --> End
 ```
 
 ### Explanation
-- User selects an assignment and modifies details
+- app.model.User selects an assignment and modifies details
 - Changes are saved and reflected on the dashboard
 - Maps to:
-    - FR-001: Assignment management
-    - US-005: Edit Assignment
+    - FR-001: app.model.Assignment management
+    - US-005: Edit app.model.Assignment
 
 ---
 
-## 5. Delete Assignment Workflow
+## 5. Delete app.model.Assignment Workflow
 
 ```mermaid
 flowchart TD
@@ -104,15 +104,15 @@ Cancel --> End
 ```
 
 ### Explanation
-- User selects assignment and confirms deletion
+- app.model.User selects assignment and confirms deletion
 - Decision ensures deletion is intentional
 - Maps to:
-    - FR-001: Assignment management
-    - US-006: Delete Assignment
+    - FR-001: app.model.Assignment management
+    - US-006: Delete app.model.Assignment
 
 ---
 
-## 6. Dashboard Viewing Workflow
+## 6. app.model.Dashboard Viewing Workflow
 
 ```mermaid
 flowchart TD
@@ -126,12 +126,12 @@ DisplayAssignments --> End
 - System loads and organizes assignments
 - Assignments are sorted by deadline and displayed
 - Maps to:
-    - FR-003: Dashboard functionality
-    - US-007: View Dashboard
+    - FR-003: app.model.Dashboard functionality
+    - US-007: View app.model.Dashboard
 
 ---
 
-## 7. Notification Workflow (Parallel Processing)
+## 7. app.model.Notification Workflow (Parallel Processing)
 
 ```mermaid
 flowchart TD
@@ -157,7 +157,7 @@ UpdateDashboard --> End
 
 ---
 
-## 8. Mark Assignment Complete Workflow
+## 8. Mark app.model.Assignment Complete Workflow
 
 ```mermaid
 flowchart TD
@@ -169,11 +169,11 @@ UpdateDashboard --> End
 ```
 
 ### Explanation
-- User selects an assignment and marks it complete
+- app.model.User selects an assignment and marks it complete
 - System updates status and reflects changes on dashboard
 - Maps to:
     - FR-004: Progress tracking
-    - US-008: Mark Assignment Complete
+    - US-008: Mark app.model.Assignment Complete
 
 ---
 
@@ -181,18 +181,18 @@ UpdateDashboard --> End
 
 These activity diagrams align with:
 
-### Functional Requirements (Assignment 4)
-- FR-001: Assignment management
-- FR-002: User authentication
-- FR-003: Dashboard functionality
+### Functional Requirements (app.model.Assignment 4)
+- FR-001: app.model.Assignment management
+- FR-002: app.model.User authentication
+- FR-003: app.model.Dashboard functionality
 - FR-004: Deadline tracking
 
-### User Stories (Assignment 6)
+### app.model.User Stories (app.model.Assignment 6)
 - US-001: Register Account
 - US-002: Login
-- US-004: Add Assignment
-- US-005: Edit Assignment
-- US-006: Delete Assignment
-- US-007: View Dashboard
-- US-008: Mark Assignment Complete
+- US-004: Add app.model.Assignment
+- US-005: Edit app.model.Assignment
+- US-006: Delete app.model.Assignment
+- US-007: View app.model.Dashboard
+- US-008: Mark app.model.Assignment Complete
 - US-009: Notifications

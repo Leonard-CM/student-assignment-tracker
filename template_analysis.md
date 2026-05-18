@@ -13,13 +13,13 @@ The following table compares different GitHub project templates and evaluates th
 
 ## Selected Template: Automated Kanban
 
-The Automated Kanban template was selected as it best supports Agile development and aligns with the requirements of the Student Assignment Tracker System.
+The Automated Kanban template was selected as it best supports Agile development and aligns with the requirements of the Student app.model.Assignment Tracker System.
 
 ### Justification
 
 - **Automation Support**: Automatically moves issues between columns, reducing manual effort.
 - **Agile Alignment**: Supports iterative development and continuous delivery.
-- **Traceability**: Integrates with GitHub Issues created in Assignment 6.
+- **Traceability**: Integrates with GitHub Issues created in app.model.Assignment 6.
 - **Workflow Visibility**: Clearly shows task progression across stages.
 
 Compared to other templates:

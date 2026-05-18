@@ -1,7 +1,7 @@
-# Student app.Assignment Tracker System
+# Student app.model.Assignment Tracker System
 
 ## Project Description
-The Student app.Assignment Tracker System is a web-based application designed to help students manage their academic assignments and deadlines efficiently.
+The Student app.model.Assignment Tracker System is a web-based application designed to help students manage their academic assignments and deadlines efficiently.
 
 The system allows students to organize subjects, track assignments, and monitor upcoming deadlines in one centralized platform.
 
@@ -50,7 +50,7 @@ Reflection:
 ### Project Board (Kanban)
 ![Project Board](images/project-board.png)
 
-### Issues (app.User Stories)
+### Issues (app.model.User Stories)
 ![Issues](images/issues.png)
 
 ### Milestone (Sprint 1)
@@ -198,3 +198,33 @@ JUnit 5 was used to test:
 ## Conclusion
 
 This assignment demonstrated the implementation of Behavioral Design Patterns using Java and JUnit 5 while applying Agile development practices through GitHub Issues, Boards, and Milestones.
+
+## Assignment 12 - Service Layer and REST API
+
+### Overview
+
+Assignment 12 focused on implementing a Service Layer and RESTful API for the Student Assignment Tracker System using Spring Boot.
+
+### Features Implemented
+- Repository layer
+- Service layer business logic
+- RESTful CRUD API endpoints
+- Assignment completion workflow
+- Swagger/OpenAPI documentation
+- Unit and integration testing
+
+### API Endpoints
+
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | /api/assignments | Fetch all assignments |
+| POST | /api/assignments | Create assignment |
+| PUT | /api/assignments/{id} | Update assignment |
+| POST | /api/assignments/{id}/complete | Complete assignment |
+
+### Swagger Documentation
+
+![Swagger UI](images/swagger-ui.png)
+
+### Reflection
+[REFLECTION_A12.md](REFLECTION_A12.md)

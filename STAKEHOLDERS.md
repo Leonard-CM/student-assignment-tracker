@@ -1,4 +1,4 @@
-# Stakeholder Analysis - Student Assignment Tracker System
+# Stakeholder Analysis - Student app.model.Assignment Tracker System
 
 The following table identifies key stakeholders involved in the system, along with their roles, concerns, challenges, and measurable success criteria.
 

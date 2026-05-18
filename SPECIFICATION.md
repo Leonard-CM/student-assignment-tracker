@@ -1,9 +1,9 @@
-# Student Assignment Tracker System
+# Student app.model.Assignment Tracker System
 
 ## 1. Introduction
 
 ### Project Title
-Student Assignment Tracker System
+Student app.model.Assignment Tracker System
 
 ### Domain
 Education Management Systems
@@ -16,7 +16,7 @@ Students often struggle to manage multiple assignments from different courses. T
 Many students rely on manual planners or scattered digital tools that do not provide a centralized view of all academic tasks.
 
 ### Proposed Solution
-The Student Assignment Tracker System provides a centralized platform where students can:
+The Student app.model.Assignment Tracker System provides a centralized platform where students can:
 
 - Add assignments
 - Set deadlines
@@ -31,10 +31,10 @@ This system is designed to be implemented by a single developer within a 4-month
 
 The initial version of the system will include the following features:
 
-- User registration and login
-- Subject management
-- Assignment creation and tracking
+- app.model.User registration and login
+- app.model.Subject management
+- app.model.Assignment creation and tracking
 - Deadline management
-- Dashboard showing upcoming assignments
+- app.model.Dashboard showing upcoming assignments
 
 The project will be implemented using Java (Spring Boot) for the backend and a simple web interface for the frontend.

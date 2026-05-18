@@ -1,8 +1,9 @@
-import app.Assignment;
-import behavioral_patterns.observer.AssignmentTracker;
-import behavioral_patterns.observer.StudentObserver;
-import behavioral_patterns.strategy.AssignmentManager;
-import behavioral_patterns.strategy.DeadlineStrategy;
+import com.app.creational_patterns.builder.AssignmentBuilder;
+import com.app.model.Assignment;
+import com.app.behavioral_patterns.observer.AssignmentTracker;
+import com.app.behavioral_patterns.observer.StudentObserver;
+import com.app.behavioral_patterns.strategy.AssignmentManager;
+import com.app.behavioral_patterns.strategy.DeadlineStrategy;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
@@ -17,8 +18,9 @@ public class BehavioralPatternTests {
         AssignmentManager manager = new AssignmentManager();
 
         List<Assignment> list = new ArrayList<>();
-        list.add(new Assignment("Math"));
-
+        list.add(new AssignmentBuilder()
+                .setTitle("Math")
+                .build());
         manager.setStrategy(new DeadlineStrategy());
         List<Assignment> result = manager.prioritize(list);
 

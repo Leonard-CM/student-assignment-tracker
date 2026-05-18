@@ -88,3 +88,11 @@ All six creational design patterns have been successfully applied, tested, and d
 - Implemented Strategy pattern for assignment prioritization
 - Implemented Observer pattern for notifications
 - Added unit tests for behavioral patterns
+
+## Assignment 12
+- Implemented repository and service layer architecture
+- Added RESTful API endpoints using Spring Boot
+- Added assignment completion business workflow
+- Added Swagger/OpenAPI documentation
+- Added unit and integration testing
+- Updated Agile workflow and GitHub tracking

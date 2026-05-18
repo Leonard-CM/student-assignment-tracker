@@ -1,4 +1,4 @@
-# Student Assignment Tracker System Architecture
+# Student app.model.Assignment Tracker System Architecture
 
 ## Domain
 Education Management Systems
@@ -18,11 +18,11 @@ The system is designed to be developed by a single developer within four months 
 The System Context Diagram shows the interaction between the student and the assignment tracker system.
 ```mermaid
 C4Context
-title Student Assignment Tracker System Context
+title Student app.model.Assignment Tracker System Context
 
 Person(student, "Student", "Manages assignments and deadlines")
 
-System(system, "Assignment Tracker System", "Helps students manage assignments")
+System(system, "app.model.Assignment Tracker System", "Helps students manage assignments")
 
 SystemDb(database, "Database", "Stores assignments and user data")
 
@@ -36,13 +36,13 @@ Rel(system, database, "Reads and writes data")
 The System Context Diagram shows the interaction between the student and the assignment tracker system.
 ```mermaid
 C4Container
-title Assignment Tracker Containers
+title app.model.Assignment Tracker Containers
 
 Person(student, "Student")
 
-System_Boundary(system, "Assignment Tracker System") {
+System_Boundary(system, "app.model.Assignment Tracker System") {
 
-Container(web, "Web Application", "HTML/CSS/JavaScript", "User Interface")
+Container(web, "Web Application", "HTML/CSS/JavaScript", "app.model.User Interface")
 
 Container(api, "Backend API", "Spring Boot", "Handles business logic")
 
@@ -67,9 +67,9 @@ C4Component
 
     Component(auth, "Authentication Controller", "Handles login and registration")
 
-    Component(assignments, "Assignment Controller", "Manages assignment operations")
+    Component(assignments, "app.model.Assignment Controller", "Manages assignment operations")
 
-    Component(service, "Assignment Service", "Business logic")
+    Component(service, "app.model.Assignment Service", "Business logic")
 
     Component(repo, "Repository", "Database access layer")
 
