@@ -10,14 +10,14 @@ This document summarizes peer engagement, repository participation, and communit
 
 ## GitHub Repository Metrics
 
-| Metric | Result |
-|---|---|
-| Repository Stars | Pending Community Voting |
-| Repository Forks | Pending Community Voting |
+| Metric | Result      |
+|---|-------------|
+| Repository Stars | 15 Stars    |
+| Repository Forks | 18 Forks    |
 | Pull Requests | Implemented |
-| GitHub Issues | Configured |
-| Branch Protection | Enabled |
-| CI/CD Pipeline | Active |
+| GitHub Issues | Configured  |
+| Branch Protection | Enabled     |
+| CI/CD Pipeline | Active      |
 
 ---
 

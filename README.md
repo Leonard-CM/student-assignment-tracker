@@ -1,9 +1,14 @@
-# Student app.model.Assignment Tracker System
+# Student Assignment Tracker System
 
 ## Project Description
-The Student app.model.Assignment Tracker System is a web-based application designed to help students manage their academic assignments and deadlines efficiently.
+The Student Assignment Tracker System is a web-based application designed to help students manage their academic assignments and deadlines efficiently.
 
 The system allows students to organize subjects, track assignments, and monitor upcoming deadlines in one centralized platform.
+
+![License](https://img.shields.io/badge/license-MIT-green)
+![Java](https://img.shields.io/badge/java-17-blue)
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+![CI/CD](https://img.shields.io/badge/CI-CD-success)
 
 ## Project Documentation
 
@@ -353,3 +358,19 @@ Planned future enhancements include:
 ## License
 
 This project is licensed under the MIT License.
+
+---
+
+## Community Engagement Evidence
+
+The repository was shared with peers to encourage open-source participation and collaboration.
+
+### Repository Community Metrics
+
+![Community Engagement](images/assignment14-community.png)
+
+The project received community interaction through:
+- Repository stars
+- Repository forks
+- Peer feedback
+- Contribution discussions
