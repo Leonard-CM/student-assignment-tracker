@@ -71,6 +71,44 @@ Reflection:
 
 ---
 
+## Getting Started
+
+### Prerequisites
+- Java 17+
+- Maven
+- MySQL (if required by project)
+
+### Setup Instructions
+
+1. Clone the repository
+
+```bash
+
+git clone https://github.com/Leonard-CM/student-assignment-tracker.git
+cd student-assignment-tracker
+
+```
+
+2. Build the project
+
+```bash
+mvn clean install
+
+```
+3. Run the application
+```bash
+mvn spring-boot:run
+
+```
+
+4. Run tests
+
+```bash
+mvn clean test
+```
+
+After running, you can access the API using Swagger UI or Postman.
+
 ## Conclusion
 This project demonstrates a complete software engineering lifecycle, including requirements gathering, system design, testing, and Agile planning.
 
