@@ -14,4 +14,4 @@ Another key lesson involved pull request management. Creating focused pull reque
 
 The experience demonstrated how modern software development relies heavily on collaboration, communication, code reviews, and continuous integration processes.
 
-Overall, Assignment 15 strengthened practical skills in GitHub workflows, collaborative development, open-source contribution, and professional software engineering practices.
+Overall Assignment 15 strengthened practical skills in GitHub workflows, collaborative development, open-source contribution, and professional software engineering practices.
