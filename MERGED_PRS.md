@@ -46,7 +46,7 @@ Summary:
 Improved test coverage for the hospital-vital-monitoring-system by adding missing unit tests for services and repositories. The contribution focused on increasing overall Jest coverage by testing CRUD operations, edge cases, and ensuring proper mocking of repository dependencies within the PatientService layer.
 
 Status:
-Merged
+Mergedd
 
 ---
 
